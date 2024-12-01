@@ -209,8 +209,8 @@
         function createDedicatedGraphs(feeds) {
             // Dedicated Graphs
             const labels = feeds.map(feed => new Date(feed.created_at).toLocaleString());
-            const vocData = feeds.map(feed => parseFloat(feed.field1));
-            const co2Data = feeds.map(feed => parseFloat(feed.field2));
+            const vocData = feeds.map(feed => parseFloat(feed.field2));
+            const co2Data = feeds.map(feed => parseFloat(feed.field1));
             const temperatureData = feeds.map(feed => parseFloat(feed.field3));
 
             // VOC Dedicated Graph (Line with dots)
