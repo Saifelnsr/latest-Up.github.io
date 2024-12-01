@@ -132,8 +132,8 @@
             const labels = feeds.map(feed => new Date(feed.created_at).toLocaleString());
 
             // Data for each field
-            const vocData = feeds.map(feed => parseFloat(feed.field1)); // Assume VOC data is in Field 1
-            const co2Data = feeds.map(feed => parseFloat(feed.field2)); // Assume CO2 data is in Field 2
+            const vocData = feeds.map(feed => parseFloat(feed.field2)); // Assume VOC data is in Field 1
+            const co2Data = feeds.map(feed => parseFloat(feed.field1)); // Assume CO2 data is in Field 2
             const temperatureData = feeds.map(feed => parseFloat(feed.field3)); // Assume Temperature data is in Field 3
 
             // Create VOC Overview Graph
