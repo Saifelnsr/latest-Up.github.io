@@ -69,11 +69,11 @@ figcaption{
 }
 #Tec{
     text-align:center;
-    padding-left: auto; 
+    padding-left: 10px; 
     margin:auto;  
     width: 75%;
     height:auto;
-    display: block;
+    display: flex;
 
 
 }
